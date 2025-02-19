@@ -2,7 +2,10 @@
 
 int main(int argc, char** argv)
 {
-    printf("bruh");
+    for (int i = 0; i < argc; i++)
+    {
+        printf("%s", argv[i]);
+    }
     
     return 0;
 }
